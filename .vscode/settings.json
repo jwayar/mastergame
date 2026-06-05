@@ -1,0 +1,18 @@
+{
+  "workbench.colorCustomizations": {
+    "[Material Theme Ocean High Contrast]": {},
+    "activityBar.background": "#0E3513",
+    "titleBar.activeBackground": "#144A1A",
+    "titleBar.activeForeground": "#F3FCF4",
+    "editor.lineHighlightBackground": "#1073cf2d",
+    "editor.lineHighlightBorder": "#9fced11f",
+    "titleBar.inactiveBackground": "#0E3513",
+    "titleBar.inactiveForeground": "#F3FCF4",
+    "statusBar.background": "#0E3513",
+    "statusBar.foreground": "#F3FCF4",
+    "statusBar.debuggingBackground": "#0E3513",
+    "statusBar.debuggingForeground": "#F3FCF4",
+    "statusBar.noFolderBackground": "#0E3513",
+    "statusBar.noFolderForeground": "#F3FCF4"
+  }
+}
