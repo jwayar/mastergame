@@ -22,7 +22,7 @@ from Question import (
 # ==============================================================================
 def ruta_asset(tipo: str, nombre: str):
     """ Ruta compatible con carpeta 'lengua' """
-    return resolver_ruta(f"lengua/{tipo}/{nombre}")
+    return resolver_ruta(f"Lengua/{tipo}/{nombre}")
 
 # Para compatibilidad con el código existente
 def ruta_sonido(nombre):

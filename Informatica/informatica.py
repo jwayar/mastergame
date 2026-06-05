@@ -75,7 +75,7 @@ DIR = os.path.dirname(os.path.abspath(__file__))
 # ─── RUTAS ───────────────────────────────────────────────────
 def ruta(nombre):
     """ Ruta compatible con carpeta 'informatica' """
-    return resolver_ruta(f"informatica/{nombre}")
+    return resolver_ruta(f"Informatica/{nombre}")
 
 ARCHIVO_RANKING = ruta("ranking.json")
 
@@ -144,10 +144,11 @@ img_fondo_menu  = cargar_imagen("fondo_menu.png",  (ANCHO, ALTO))
 img_fondo_juego = cargar_imagen("fondo_juego.png", (ANCHO, ALTO))
 
 # ─── CARGAR SONIDOS ──────────────────────────────────────────
-snd_acierto = cargar_sonido("acierto.wav")
-snd_error   = cargar_sonido("error.wav")
-snd_nivel   = cargar_sonido("nivel.wav")
-snd_boss    = cargar_sonido("boss.wav")
+# Solo cargamos los que existen
+snd_acierto = None
+snd_error   = None
+snd_nivel   = None
+snd_boss    = None
 
 # ─── DATOS DE OBJETOS ────────────────────────────────────────
 OBJETOS_INFO = [

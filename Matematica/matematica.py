@@ -927,7 +927,7 @@ def pantalla_juego(config):
 
     # Fondo del juego
     try:
-        fondo_img = pygame.image.load(resolver_ruta("matematica/pizarron.jpg"))
+        fondo_img = pygame.image.load(resolver_ruta("pizarron.jpg"))
         fondo_img = pygame.transform.scale(fondo_img, (ANCHO, ALTO))
     except pygame.error:
         fondo_img = None
@@ -1391,7 +1391,7 @@ def pantalla_game_over(stats):
             ("Precisión",        f"{precision:.1f}%",         C_CIAN),
             ("Vel. promedio",    f"{vel_prom:.1f}s / preg",   C_TEXTO),
         ]
-        
+
         # Posiciones centradas (mejor distribución en pantalla 1280px)
         cols = [210, 640, 1070]   # ← Corregido y centrado
         rows = [255, 355]
