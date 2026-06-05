@@ -150,6 +150,11 @@ snd_error   = None
 snd_nivel   = None
 snd_boss    = None
 
+# snd_acierto = cargar_sonido("acierto.wav")
+# snd_error   = cargar_sonido("error.wav")
+# snd_nivel   = cargar_sonido("nivel.wav")
+# snd_boss    = cargar_sonido("boss.wav")
+
 # ─── DATOS DE OBJETOS ────────────────────────────────────────
 OBJETOS_INFO = [
     {
